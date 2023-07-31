@@ -40,6 +40,8 @@ arduino_HV
 USB+3V3_Bottom
 bottom case
 
+![image](https://github.com/bigcrimping/tide_meter/assets/74270551/34597712-df34-4e6c-814a-f571179465d6)
+
 Fixing required 
 
 10 x M3 nuts
@@ -48,3 +50,4 @@ Fixing required
 
 STLs for printing available here: 
 
+The boards inside are a USB C PD controller, a 20V to 5V step down, a 20V to 170V step up, 3 "exixe" drivers and a Arduino Nano 33 IOT board
