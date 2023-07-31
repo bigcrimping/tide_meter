@@ -1,4 +1,4 @@
-# Tide meter
+# Tide Meter
 An Arduino Nano 33 IoT based gadget which interrogates the latest tide height from your chosen UK measurement station.
 
 ![image](https://github.com/bigcrimping/tide_meter/assets/74270551/4ed0a469-31e1-4765-ad39-08cfae97c226)
