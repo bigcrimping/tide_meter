@@ -1,11 +1,13 @@
 # Tide Meter
 An Arduino Nano 33 IoT based gadget which interrogates the latest tide height from your chosen UK measurement station.
 
-![image](https://github.com/bigcrimping/tide_meter/assets/74270551/4ed0a469-31e1-4765-ad39-08cfae97c226)
+![image](https://github.com/bigcrimping/tide_meter/assets/74270551/902286f6-652c-49a9-b909-6ae5f2ff6cc4)
+
 
 The tide data is scraped from the Environment Agency website: https://environment.data.gov.uk/flood-monitoring/tidegauge/index.html#filter=7&station=E72639
 
-![image](https://github.com/bigcrimping/tide_meter/assets/74270551/2ba11598-a86a-4bd9-a6f0-1221cf00a84d)
+![image](https://github.com/bigcrimping/tide_meter/assets/74270551/90a7fbba-d69e-4f7e-a77c-c23f4051fc1c)
+
 
 The Bristol channel where the measurement is taken has the third highest tidal range in the world
 
@@ -30,7 +32,8 @@ You will need to add your WiFi details to the arduino_secrets.h file for the net
 
 Files in 3mf format are here: https://github.com/bigcrimping/tide_meter/tree/main/mech
 
-![image](https://github.com/bigcrimping/tide_meter/assets/74270551/40fad846-1327-408a-bc02-fce476bf1751)
+![image](https://github.com/bigcrimping/tide_meter/assets/74270551/ac52c845-62bf-43da-90f6-3ba22ab6ff24)
+
 
 
 The design comprises (from top to bottom) 
@@ -42,7 +45,8 @@ arduino_HV
 USB+3V3_Bottom
 bottom case
 
-![image](https://github.com/bigcrimping/tide_meter/assets/74270551/34597712-df34-4e6c-814a-f571179465d6)
+![image](https://github.com/bigcrimping/tide_meter/assets/74270551/32a2c2a5-d2c3-4e19-9990-c99ee6a33365)
+
 
 Fixing required 
 
