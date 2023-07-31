@@ -21,12 +21,14 @@ JSON Handling https://arduinojson.org/v6/api/json/deserializejson/
 
 ## Project Code
 
-The code is here: 
+The code is here: https://github.com/bigcrimping/tide_meter/tree/main/code/wave_height_0.2
 
 You will need to add your WiFi details to the arduino_secrets.h file for the network you wish to connect to.
 
 
 ## Mechanical Files
+
+Files in 3mf format are here: https://github.com/bigcrimping/tide_meter/tree/main/mech
 
 ![image](https://github.com/bigcrimping/tide_meter/assets/74270551/40fad846-1327-408a-bc02-fce476bf1751)
 
