@@ -23,9 +23,26 @@ JSON Handling https://arduinojson.org/v6/api/json/deserializejson/
 
 ## Project Code
 
-The code is here: https://github.com/bigcrimping/tide_meter/tree/main/code/wave_height_0.2
+The code is here: https://github.com/bigcrimping/tide_meter/tree/main/code/wave_height
 
-You will need to add your WiFi details to the arduino_secrets.h file for the network you wish to connect to.
+Libraries needed (Arduino Library Manager): WiFiNINA, ArduinoJson (version 7 or later), FlashStorage, plus the exixe driver linked above.
+
+### Setting the WiFi details
+
+The WiFi details are not compiled into the sketch. They are entered over USB serial and stored in the board's flash:
+
+1. Upload the sketch and open the Serial Monitor (line ending set to "Newline"; the baud rate does not matter).
+2. Type the following, one line at a time:
+
+```
+ssid your network name
+pass your password
+save
+```
+
+The board stores the details, connects, and reconnects with them on every power-up. Other commands: `show` (stored SSID and connection state, the password is never printed), `clear` (erase the stored details) and `help`. For an open network send `pass` on its own.
+
+Note that uploading a new sketch erases the stored details, so they need entering again after each upload.
 
 
 ## Mechanical Files
